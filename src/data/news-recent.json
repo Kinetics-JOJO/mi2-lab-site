@@ -1,0 +1,369 @@
+[
+ {
+  "id": "aocmp",
+  "date": "2026-09",
+  "title": {
+   "en": "AOCMP Korea: poster presentation, and we won the bid to host AOCMP 2028",
+   "zh": "AOCMP 韓國大會：海報展示，並成功申辦 AOCMP 2028",
+   "ko": "AOCMP 코리아: 포스터 발표 및 AOCMP 2028 개최 유치 성공"
+  },
+  "text": {
+   "en": "Our lab presented a poster at AOCMP in Korea — and we won the bid to host AOCMP 2028. See you in Hong Kong SAR, China, in 2028!",
+   "zh": "實驗室於韓國 AOCMP 大會展示海報，並成功申辦 AOCMP 2028——2028 年中國香港見！",
+   "ko": "우리 연구실이 한국 AOCMP에서 포스터를 발표하고 AOCMP 2028 개최를 유치했습니다. 2028년 중국 홍콩에서 만나요!"
+  },
+  "images": [
+   {
+    "src": "assets/news-recent/aocmp/img-01.jpg",
+    "portrait": false,
+    "w": 1400,
+    "h": 1050,
+    "contain": false
+   },
+   {
+    "src": "assets/news-recent/aocmp/img-02.jpg",
+    "portrait": false,
+    "w": 1400,
+    "h": 1049,
+    "contain": false
+   },
+   {
+    "src": "assets/news-recent/aocmp/img-03.jpg",
+    "portrait": false,
+    "w": 1400,
+    "h": 1060,
+    "contain": false
+   }
+  ]
+ },
+ {
+  "id": "bibm2026",
+  "date": "2026-09",
+  "title": {
+   "en": "DeepMoLM accepted at IEEE BIBM 2026",
+   "zh": "DeepMoLM 論文獲 IEEE BIBM 2026 接收",
+   "ko": "DeepMoLM, IEEE BIBM 2026 채택"
+  },
+  "text": {
+   "en": "Our paper DeepMoLM has been accepted at IEEE BIBM 2026 (Dallas, USA).",
+   "zh": "我們的論文 DeepMoLM 獲 IEEE BIBM 2026（美國達拉斯）接收。",
+   "ko": "우리 논문 DeepMoLM이 IEEE BIBM 2026(미국 댈러스)에 채택되었습니다."
+  },
+  "images": [
+   {
+    "src": "assets/news-recent/bibm2026/img-01.jpg",
+    "portrait": false,
+    "w": 1400,
+    "h": 844,
+    "contain": false
+   },
+   {
+    "src": "assets/news-recent/bibm2026/img-02.jpg",
+    "portrait": false,
+    "w": 750,
+    "h": 270,
+    "contain": true
+   }
+  ]
+ },
+ {
+  "id": "gerald-farewell",
+  "date": "2026-09",
+  "title": {
+   "en": "Farewell and best wishes to Dr. Gerald Cheng",
+   "zh": "歡送 Gerald Cheng 博士，祝前程似錦",
+   "ko": "Gerald Cheng 박사의 새로운 출발을 응원합니다"
+  },
+  "text": {
+   "en": "Thank you, Gerald, for all your contributions — wishing you all the best in your next chapter!",
+   "zh": "感謝 Gerald 為實驗室作出的貢獻，祝未來一切順利！",
+   "ko": "Gerald, 그동안 연구실에 기여해 주셔서 감사합니다. 앞날을 응원합니다!"
+  },
+  "images": [
+   {
+    "src": "assets/news-recent/gerald-farewell/img-01.jpg",
+    "portrait": false,
+    "w": 1400,
+    "h": 1050,
+    "contain": false
+   }
+  ]
+ },
+ {
+  "id": "miccai2026",
+  "date": "2026-08",
+  "title": {
+   "en": "M³AD accepted at MICCAI 2026",
+   "zh": "M³AD 論文獲 MICCAI 2026 接收",
+   "ko": "M³AD, MICCAI 2026 채택"
+  },
+  "text": {
+   "en": "Our paper M³AD has been accepted at MICCAI 2026 (France).",
+   "zh": "我們的論文 M³AD 獲 MICCAI 2026（法國）接收。",
+   "ko": "우리 논문 M³AD가 MICCAI 2026(프랑스)에 채택되었습니다."
+  },
+  "images": [
+   {
+    "src": "assets/news-recent/miccai2026/img-01.jpg",
+    "portrait": false,
+    "w": 1180,
+    "h": 540,
+    "contain": true
+   },
+   {
+    "src": "assets/news-recent/miccai2026/img-02.jpg",
+    "portrait": false,
+    "w": 1400,
+    "h": 780,
+    "contain": true
+   },
+   {
+    "src": "assets/news-recent/miccai2026/img-03.jpg",
+    "portrait": false,
+    "w": 1304,
+    "h": 796,
+    "contain": true
+   }
+  ]
+ },
+ {
+  "id": "icml2026",
+  "date": "2026-07",
+  "title": {
+   "en": "Presenting ChemHyperMAG at ICML 2026, Seoul",
+   "zh": "於首爾 ICML 2026 展示 ChemHyperMAG",
+   "ko": "서울 ICML 2026에서 ChemHyperMAG 발표"
+  },
+  "text": {
+   "en": "We presented our work ChemHyperMAG at ICML 2026 in Seoul, Korea.",
+   "zh": "我們於韓國首爾舉行的 ICML 2026 上展示了 ChemHyperMAG 研究。",
+   "ko": "한국 서울에서 열린 ICML 2026에서 ChemHyperMAG 연구를 발표했습니다."
+  },
+  "images": [
+   {
+    "src": "assets/news-recent/icml2026/img-01.jpg",
+    "portrait": false,
+    "w": 1400,
+    "h": 1050,
+    "contain": false
+   },
+   {
+    "src": "assets/news-recent/icml2026/img-02.jpg",
+    "portrait": false,
+    "w": 1400,
+    "h": 1050,
+    "contain": false
+   },
+   {
+    "src": "assets/news-recent/icml2026/img-03.jpg",
+    "portrait": false,
+    "w": 1348,
+    "h": 434,
+    "contain": true
+   },
+   {
+    "src": "assets/news-recent/icml2026/img-04.jpg",
+    "portrait": false,
+    "w": 864,
+    "h": 574,
+    "contain": false
+   }
+  ]
+ },
+ {
+  "id": "sfn2026-yunlin",
+  "date": "2026-07",
+  "title": {
+   "en": "Yunlin's work accepted as an oral presentation at SfN 2026",
+   "zh": "Yunlin 的研究獲 SfN 2026 口頭報告接收",
+   "ko": "Yunlin의 연구, SfN 2026 구두 발표 채택"
+  },
+  "text": {
+   "en": "Congratulations to Yunlin — her work has been accepted as an oral presentation at SfN 2026.",
+   "zh": "恭喜 Yunlin——其研究獲 SfN 2026 接收為口頭報告。",
+   "ko": "Yunlin의 연구가 SfN 2026 구두 발표로 채택되었습니다. 축하합니다!"
+  },
+  "images": [
+   {
+    "src": "assets/news-recent/sfn2026-yunlin/img-01.jpg",
+    "portrait": false,
+    "w": 1193,
+    "h": 628,
+    "contain": false
+   },
+   {
+    "src": "assets/news-recent/sfn2026-yunlin/img-02.jpg",
+    "portrait": false,
+    "w": 1400,
+    "h": 570,
+    "contain": true
+   },
+   {
+    "src": "assets/news-recent/sfn2026-yunlin/img-03.jpg",
+    "portrait": false,
+    "w": 300,
+    "h": 91,
+    "contain": true
+   }
+  ]
+ },
+ {
+  "id": "icassp2026",
+  "date": "2026-05",
+  "title": {
+   "en": "SaBAN accepted and presented at ICASSP 2026",
+   "zh": "SaBAN 論文獲 ICASSP 2026 接收並展示",
+   "ko": "SaBAN, ICASSP 2026 채택 및 발표"
+  },
+  "text": {
+   "en": "Our paper SaBAN was accepted and presented at ICASSP 2026.",
+   "zh": "我們的論文 SaBAN 獲 ICASSP 2026 接收並於會上展示。",
+   "ko": "우리 논문 SaBAN이 ICASSP 2026에 채택되어 발표되었습니다."
+  },
+  "images": [
+   {
+    "src": "assets/news-recent/icassp2026/img-01.jpg",
+    "portrait": false,
+    "w": 1400,
+    "h": 1049,
+    "contain": false
+   },
+   {
+    "src": "assets/news-recent/icassp2026/img-02.jpg",
+    "portrait": false,
+    "w": 1400,
+    "h": 1049,
+    "contain": false
+   }
+  ]
+ },
+ {
+  "id": "drugclaw",
+  "date": "2026-03",
+  "title": {
+   "en": "We launched DrugClaw — open-source AI agent for drug discovery",
+   "zh": "我們發布了 DrugClaw——開源藥物研發 AI 智能體",
+   "ko": "DrugClaw 공개 — 오픈소스 신약 개발 AI 에이전트"
+  },
+  "text": {
+   "en": "DrugClaw is our open-source AI research assistant for accelerated drug discovery.",
+   "zh": "DrugClaw 是我們加速藥物研發的開源 AI 研究助手。",
+   "ko": "DrugClaw는 신약 개발을 가속화하는 우리 연구실의 오픈소스 AI 연구 어시스턴트입니다."
+  },
+  "images": [
+   {
+    "src": "assets/news-recent/drugclaw/img-01.jpg",
+    "portrait": false,
+    "w": 1400,
+    "h": 958,
+    "contain": false
+   }
+  ]
+ },
+ {
+  "id": "rgc-2025",
+  "date": "2026-01",
+  "title": {
+   "en": "Our project awarded the RGC Collaborative Research Equipment Grant (2025/26)",
+   "zh": "我們的項目榮獲研資局協作研究設備補助金（2025/26）",
+   "ko": "우리 프로젝트, RGC 협업 연구 장비 보조금(2025/26) 선정"
+  },
+  "text": {
+   "en": "Our project has been awarded the RGC Collaborative Research Equipment Grant (2025/26).",
+   "zh": "我們的項目榮獲研資局協作研究設備補助金（2025/26）。",
+   "ko": "우리 프로젝트가 RGC 협업 연구 장비 보조금(2025/26)에 선정되었습니다."
+  },
+  "images": [
+   {
+    "src": "assets/news-recent/rgc-2025/img-01.jpg",
+    "portrait": false,
+    "w": 1400,
+    "h": 525,
+    "contain": true
+   },
+   {
+    "src": "assets/news-recent/rgc-2025/img-02.jpg",
+    "portrait": false,
+    "w": 917,
+    "h": 506,
+    "contain": false
+   }
+  ]
+ },
+ {
+  "id": "bibm2025",
+  "date": "2025-12",
+  "title": {
+   "en": "Our research presented at IEEE BIBM 2025, Wuhan",
+   "zh": "我們的研究於武漢 IEEE BIBM 2025 展示",
+   "ko": "우한 IEEE BIBM 2025에서 연구 발표"
+  },
+  "text": {
+   "en": "Our research was accepted and presented at IEEE BIBM 2025 in Wuhan, China.",
+   "zh": "我們的研究獲 IEEE BIBM 2025（中國武漢）接收並於會上展示。",
+   "ko": "우리 연구가 IEEE BIBM 2025(중국 우한)에 채택되어 발표되었습니다."
+  },
+  "images": [
+   {
+    "src": "assets/news-recent/bibm2025/img-01.jpg",
+    "portrait": false,
+    "w": 1400,
+    "h": 933,
+    "contain": false
+   },
+   {
+    "src": "assets/news-recent/bibm2025/img-02.jpg",
+    "portrait": false,
+    "w": 1400,
+    "h": 1049,
+    "contain": false
+   }
+  ]
+ },
+ {
+  "id": "zebang-graduation",
+  "date": "2025-11",
+  "title": {
+   "en": "Congratulations to Dr. ZeBang He on his PhD graduation",
+   "zh": "熱烈祝賀 ZeBang He 博士畢業",
+   "ko": "ZeBang He 박사의 졸업을 축하합니다"
+  },
+  "text": {
+   "en": "Congratulations to ZeBang on his PhD graduation!",
+   "zh": "熱烈祝賀 ZeBang 取得博士學位！",
+   "ko": "ZeBang 박사의 학위 취득을 축하합니다!"
+  },
+  "images": [
+   {
+    "src": "assets/news-recent/zebang-graduation/img-01.jpg",
+    "portrait": false,
+    "w": 1400,
+    "h": 1050,
+    "contain": false
+   }
+  ]
+ },
+ {
+  "id": "jing-lan-joined",
+  "date": "2025-05",
+  "title": {
+   "en": "Welcome Jing Lan to our lab!",
+   "zh": "歡迎 Jing Lan 加入我們的實驗室！",
+   "ko": "Jing Lan 님의 합류를 환영합니다!"
+  },
+  "text": {
+   "en": "Jing Lan joined our lab as a PhD student. Welcome aboard, Jing!",
+   "zh": "Jing Lan 以博士生身份加入我們的實驗室，歡迎加入！",
+   "ko": "Jing Lan 님이 박사과정 학생으로 우리 연구실에 합류했습니다. 환영합니다!"
+  },
+  "images": [
+   {
+    "src": "assets/news-recent/jing-lan-joined/img-01.jpg",
+    "portrait": false,
+    "w": 1400,
+    "h": 1050,
+    "contain": false
+   }
+  ]
+ }
+]
