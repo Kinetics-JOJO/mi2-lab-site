@@ -1,41 +1,41 @@
-# MI² Lab 官方网站
+# MI² Lab — Official Website
 
-Molecular Imaging & Intelligence Laboratory（MI² Lab），The Hong Kong Polytechnic University, Department of Health Technology and Informatics.
+Molecular Imaging & Intelligence Laboratory (MI² Lab), Department of Health Technology and Informatics, The Hong Kong Polytechnic University, Hong Kong SAR, China.
 
-技术栈：React + TypeScript + Vite + Tailwind CSS。单页应用，支持中／英／韩三语切换。
+Stack: React + TypeScript + Vite + Tailwind CSS. Single-page app with English / Traditional Chinese / Korean language switcher.
 
 ---
 
-## 目录结构（维护时只需要动这些地方）
+## Repository layout (all content edits happen here)
 
 ```
 mi2-lab-site/
-├── public/assets/          # 所有图片资源
-│   ├── hero/               # 首页顶部轮播图
-│   ├── news-recent/        # Recent News 图片（每个事件一个文件夹）
-│   ├── news/               # Previous News（存档）图片
-│   ├── people/             # 成员头像
-│   ├── selected/           # Selected Publications 框架图
-│   ├── resources/          # Resources 卡片图
-│   ├── facilities/         # 实验室设备图
-│   └── bottom.jpg          # 页脚横幅背景
-└── src/data/               # 所有文字内容（改内容基本只动这里）
-    ├── news-recent.json    # Recent News 条目
-    ├── news-archive.json   # Previous News 条目（有图的存档）
-    ├── news-more.json      # More News 条目（纯文字）
-    ├── content.ts          # 成员、论文、Resources、轮播、页脚等
-    └── i18n.ts             # 界面文字三语翻译
+├── public/assets/          # All images
+│   ├── hero/               # Homepage hero slideshow
+│   ├── news-recent/        # Recent News images (one folder per event)
+│   ├── news/               # Previous News (archive) images
+│   ├── people/             # Member portraits
+│   ├── selected/           # Selected Publications framework figures
+│   ├── resources/          # Resources card images
+│   ├── facilities/         # Lab facilities photos
+│   └── bottom.jpg          # Footer banner background
+└── src/data/               # All text content
+    ├── news-recent.json    # Recent News entries
+    ├── news-archive.json   # Previous News entries (with images)
+    ├── news-more.json      # More News entries (text-only)
+    ├── content.ts          # People, publications, patents, resources, hero, footer
+    └── i18n.ts             # UI strings in en / zh / ko
 ```
 
 ---
 
-## 常见维护操作
+## Common maintenance tasks
 
-### 1. 添加一条新闻
+### 1. Add a news item
 
-1. 把图片放进 `public/assets/news-recent/<事件英文名>/`，命名 `img-01.jpg`、`img-02.jpg`…
-   - 图片建议：JPEG，宽度 ≤ 1400px（太大加载慢）；
-2. 在 `src/data/news-recent.json` 数组里加一条（按日期倒序排列）：
+1. Put images in `public/assets/news-recent/<event-name>/` as `img-01.jpg`, `img-02.jpg`, …
+   - JPEG, width ≤ 1400 px recommended.
+2. Add an entry to `src/data/news-recent.json` (entries are ordered newest first):
 
 ```json
 {
@@ -49,48 +49,50 @@ mi2-lab-site/
 }
 ```
 
-- `portrait`：竖拍照片填 `true`（两侧留白边显示）；
-- `contain`：横幅图/logo（宽高比 ≥ 1.9 或白底框架图）填 `true`，避免被裁切；
-- `w`/`h` 填图片实际像素尺寸。
+- `portrait`: `true` for portrait photos (shown with white side margins);
+- `contain`: `true` for wide banners / logos / white-background figures (prevents cropping and upscaling);
+- `w` / `h`: actual pixel dimensions of the image.
 
-旧新闻下架：把条目从 `news-recent.json` 剪切到 `news-archive.json`（有图）或 `news-more.json`（无图，只显示文字列表）。
+To archive an old news item: move its entry from `news-recent.json` to `news-archive.json` (if it has images) or `news-more.json` (text-only). Keep the image folder in place.
 
-### 2. 修改成员信息
+### 2. Edit members
 
-编辑 `src/data/content.ts` 里的 `PEOPLE` 数组；头像放 `public/assets/people/`。
-PI 卡片可带 `profileUrl` 字段（整卡跳转官方主页）。
+Edit the `PEOPLE` array in `src/data/content.ts`. Portraits go in `public/assets/people/`. The PI card supports an optional `profileUrl` (whole card links to the official profile page).
 
-### 3. 添加论文
+### 3. Add a publication / patent
 
-- 全部论文列表：`content.ts` 的 `ALL_PUBLICATIONS`（按年份，格式统一，不加粗）；
-- 精选论文卡片：`content.ts` 的 `SELECTED_PUBLICATIONS`，框架图放 `public/assets/selected/`，`href` 填 arXiv 或会议链接。
+- Full list: `ALL_PUBLICATIONS` in `content.ts` — `{ year: 2026, text: 'Authors. Title.', venue: 'Venue' }`, newest first, plain text (no bold).
+- Selected cards: `SELECTED_PUBLICATIONS` + figure in `public/assets/selected/` (PNG ≤ 1400 px wide), `href` → arXiv or publisher link.
+- Patents: `PATENTS` array, one `{ text: { en, zh, ko } }` per entry, newest first.
 
-### 4. 修改界面文字（三语）
+### 4. Edit UI text (buttons, headings)
 
-`src/data/i18n.ts`，每个键按 `tr('English', '繁體中文', '한국어')` 顺序填写。
+`src/data/i18n.ts` — each key follows `tr('English', '繁體中文', '한국어')`.
 
 ---
 
-## 本地开发
+## Local development
 
 ```bash
-npm install      # 首次
-npm run dev      # 本地预览（http://localhost:5173）
-npm run build    # 构建到 dist/（提交前请确认构建通过）
+npm install      # first time
+npm run dev      # local preview at http://localhost:5173
+npm run build    # build to dist/ — must pass before committing
 ```
 
-要求：Node.js ≥ 18。
+Requires Node.js ≥ 18.
 
-## 部署
+## Deployment
 
-仓库推送到 GitHub 后，用 **Cloudflare Pages** 或 **GitHub Pages** 连接仓库即可自动构建发布：
+The repo is connected to a static host (Cloudflare Pages or GitHub Pages):
 
-- 构建命令：`npm run build`
-- 输出目录：`dist`
-- 每次 push 到 `main` 分支自动更新网站，无需手动操作。
+- Build command: `npm run build`
+- Output directory: `dist`
+- Every push to `main` redeploys the site automatically.
 
-## 协作建议
+## Collaboration guidelines
 
-- 实验室指定 1 名 maintainer 负责合并修改；
-- 其他成员通过 Pull Request 提交修改（直接在 github.com 网页上编辑 JSON、上传图片也可以，不一定要装本地环境）；
-- 大图片原始素材请另外存放在实验室共享盘，仓库里只放压缩后的网页版本。
+- One designated maintainer reviews and merges changes;
+- Other members can edit via the GitHub web UI (edit JSON, upload images) — no local setup required;
+- Keep original high-resolution photos in the lab's shared drive; commit only compressed web versions.
+
+See [MAINTENANCE-SOP.md](MAINTENANCE-SOP.md) for the step-by-step operating procedure.
