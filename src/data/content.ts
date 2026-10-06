@@ -469,13 +469,18 @@ export const VALUES: ValueItem[] = [
   },
 ]
 
-/* ---------------- Facilities (About) ---------------- */
+/* ---------------- Facilities (Resources) ---------------- */
 
 export interface Facility {
+  /** empty string when tbd (no photo yet) */
   photo: string
   /** facility / room name — kept in English */
   name: string
   description: Tr
+  /** portrait photo → letterbox with object-contain on white instead of cover-crop */
+  portrait?: boolean
+  /** planned acquisition — photo area renders a TBD placeholder badge */
+  tbd?: boolean
 }
 
 export const FACILITIES_INTRO: Tr = {
@@ -486,57 +491,41 @@ export const FACILITIES_INTRO: Tr = {
 
 export const FACILITIES: Facility[] = [
   {
-    photo: asset('facilities/lab-bench.jpg'),
+    photo: asset('facilities/y1101-lab.jpg'),
     name: 'HTI Research Laboratory (Y1101)',
     description: {
-      en: 'Wet laboratory for biological and chemical experiments, equipped with centrifuges, incubators and biosafety cabinets for safe, up-to-standard sample preparation.',
-      zh: '用於生物與化學實驗的濕實驗室，配備離心機、培養箱及生物安全櫃，確保樣本製備安全合規。',
-      ko: '생물학·화학 실험을 위한 습식 실험실로, 원심분리기, 배양기, 생물안전작업대를 갖추어 안전하고 규격에 맞는 시료 준비를 지원합니다.',
+      en: 'HTI Research Laboratory (Y1101, Lee Shau Kee Building, PolyU) is well suited for biological and chemical experiments. Centrifuges, incubators, biosafety cabinets and other equipment enable safe, up-to-standard sample manipulation. These wet lab facilities allow our lab to prepare reagents and samples for imaging studies in a high-quality manner.',
+      zh: 'HTI 研究實驗室（Y1101，李兆基樓，理大）適合開展生物與化學實驗。離心機、培養箱、生物安全櫃等設備確保樣本操作安全合規。這些濕實驗室設施使本實驗室能夠高質量地製備影像研究所需的各類試劑與樣本。',
+      ko: 'HTI 연구실(Y1101, Lee Shau Kee Building, PolyU)은 생물학·화학 실험에 적합합니다. 원심분리기, 배양기, 생물안전작업대 등의 장비를 갖추어 안전하고 규격에 맞는 시료 조작이 가능하며, 이러한 습식 실험실 설비를 통해 영상 연구에 필요한 시약과 샘플을 고품질로 준비할 수 있습니다.',
     },
   },
   {
-    photo: asset('facilities/lab-y1104-wide.jpg'),
+    photo: asset('facilities/y1104-lab.jpg'),
     name: 'Translational Imaging Laboratory (Y1104)',
     description: {
-      en: 'Dedicated to in vivo preclinical imaging studies, visualizing tissue samples and animal models across multiple imaging modalities.',
-      zh: '專注於活體臨床前影像研究，以多種影像模態對組織樣本與動物模型進行可視化。',
-      ko: '생체 내 전임상 영상 연구 전용 공간으로, 다양한 영상 모달리티로 조직 샘플과 동물 모델을 시각화합니다.',
+      en: 'Translational Imaging Laboratory (Y1104, Lee Shau Kee Building, PolyU) is dedicated to in vivo preclinical imaging studies. Equipment such as the multiphoton confocal microscope for intravital microscopy, IVIS SpectrumCT, MSOT and others enables our lab to visualize tissue samples and animal models in multiple aspects. These state-of-the-art imaging modalities ensure the quality of in vivo imaging research, with clinical translation as the final goal.',
+      zh: '轉化影像實驗室（Y1104，李兆基樓，理大）專注於活體臨床前影像研究，配備活體顯微用多光子共聚焦顯微鏡、IVIS SpectrumCT、MSOT 等設備，可從多個維度對組織樣本與動物模型進行可視化。這些先進影像模態保障活體影像研究的質量，以臨床轉化為最終目標。',
+      ko: '중개 영상 실험실(Y1104, Lee Shau Kee Building, PolyU)은 생체 내 전임상 영상 연구 전용 시설입니다. 생체 내 현미경용 다중광자 공초점 현미경, IVIS SpectrumCT, MSOT 등의 장비로 조직 샘플과 동물 모델을 다양한 측면에서 시각화하며, 최첨단 영상 모달리티로 생체 내 영상 연구의 질을 보장하고 최종적으로 임상 중개를 목표로 합니다.',
     },
   },
   {
-    photo: asset('facilities/a1r-mp-plus-microscope.jpg'),
+    photo: asset('facilities/a1r-mp-plus.jpg'),
     name: 'Nikon A1R MP+ Multiphoton Confocal Microscope',
+    portrait: true,
     description: {
-      en: 'Intravital microscopy deep inside living animals; high-speed, high S/N Z-stack imaging with a hybrid scanning head (Y1104a In vivo Imaging Laboratory). Configuration: A1R MP+ scan head (Nikon) · Chameleon Vision II laser (Coherent) · Eclipse Ni-E microscope (Nikon).',
-      zh: '深入活體動物內部的活體顯微成像；混合掃描頭實現高速、高信噪比 Z 軸層掃成像（Y1104a 活體影像實驗室）。配置：A1R MP+ 掃描頭（Nikon）· Chameleon Vision II 雷射器（Coherent）· Eclipse Ni-E 顯微鏡（Nikon）。',
-      ko: '살아있는 동물 내부 깊은 곳까지 관찰하는 생체 내 현미경; 하이브리드 스캐닝 헤드로 고속·고 S/N Z-스택 이미징 지원(Y1104a 생체 내 영상 실험실). 구성: A1R MP+ 스캔 헤드(Nikon) · Chameleon Vision II 레이저(Coherent) · Eclipse Ni-E 현미경(Nikon).',
+      en: 'The Nikon A1R MP+ multiphoton confocal microscope (Y1104a In vivo Imaging Laboratory) is our choice for imaging deep inside living animals. Its hybrid scanning head design makes Z-stack imaging at a high S/N ratio possible, allowing both high-speed and high-quality scanning, so our researchers can image deep dynamics in vivo. Configuration — Scan Head: A1R MP+ (Nikon) · Laser Unit: Chameleon Vision II (Coherent) · Microscope: Eclipse Ni-E (Nikon).',
+      zh: 'Nikon A1R MP+ 多光子共聚焦顯微鏡（Y1104a 活體影像實驗室）是我們深入活體動物內部成像的主力設備。混合掃描頭設計實現高信噪比 Z 軸層掃，兼具高速與高質量掃描，使研究者能夠觀察活體深部動態。配置——掃描頭：A1R MP+（Nikon）· 雷射器：Chameleon Vision II（Coherent）· 顯微鏡：Eclipse Ni-E（Nikon）。',
+      ko: 'Nikon A1R MP+ 다중광자 공초점 현미경(Y1104a 생체 내 영상 실험실)은 살아있는 동물 내부 깊은 곳을 영상화하는 장비입니다. 하이브리드 스캐닝 헤드 설계로 높은 S/N 비의 Z-스택 이미징이 가능하며 고속·고품질 스캐닝을 모두 지원해, 연구자들이 생체 내 심부의 동적 변화를 관찰할 수 있습니다. 구성 — 스캔 헤드: A1R MP+(Nikon) · 레이저: Chameleon Vision II(Coherent) · 현미경: Eclipse Ni-E(Nikon).',
     },
   },
   {
-    photo: asset('facilities/ivis-system.jpg'),
-    name: 'IVIS SpectrumCT',
+    photo: '',
+    name: 'Animal PET/SPECT/CT',
+    tbd: true,
     description: {
-      en: 'Whole-body in vivo fluorescence and bioluminescence imaging with integrated micro-CT.',
-      zh: '結合 micro-CT 的全身活體熒光與生物發光成像。',
-      ko: '통합 micro-CT를 갖춘 전신 생체 내 형광 및 바이오루미네선스 영상.',
-    },
-  },
-  {
-    photo: asset('facilities/imaging-setup.jpg'),
-    name: 'MSOT',
-    description: {
-      en: 'Multispectral optoacoustic tomography for in vivo molecular imaging.',
-      zh: '用於活體分子影像的多光譜光聲層析成像。',
-      ko: '생체 내 분자 영상을 위한 다중분광 광음향 단층촬영.',
-    },
-  },
-  {
-    photo: asset('facilities/microscope-y1104.jpg'),
-    name: 'In vivo Imaging Laboratory (Y1104a)',
-    description: {
-      en: 'Dedicated in vivo imaging suite supporting intravital microscopy experiments.',
-      zh: '支持活體顯微實驗的專用活體影像實驗室。',
-      ko: '생체 내 현미경 실험을 지원하는 전용 생체 내 영상 실험실.',
+      en: 'Animal PET/SPECT/CT — planned acquisition. Details will be announced once the system is installed.',
+      zh: '小動物 PET/SPECT/CT——計劃購置中，設備到位後公布詳情。',
+      ko: '소동물 PET/SPECT/CT — 도입 예정. 시스템 설치 후 자세한 내용을 안내합니다.',
     },
   },
 ]

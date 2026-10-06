@@ -42,9 +42,9 @@ export const UI = {
   'research.title': tr('Research', '研究', '연구'),
   'resources.title': tr('Resources', '資源', '리소스'),
   'resources.subtitle': tr(
-    'Software and other resources developed by our researchers.',
-    '由本實驗室研究人員開發的軟件及其他資源。',
-    '연구진이 개발한 소프트웨어 및 기타 리소스입니다.',
+    'Software, datasets, and laboratory facilities of our group.',
+    '本實驗室的軟件、數據集與實驗設施。',
+    '우리 연구실의 소프트웨어, 데이터셋 및 연구 시설.',
   ),
   'join.title': tr('Join us', '加入我們', '함께하기'),
   'join.subtitle': tr(
@@ -81,7 +81,6 @@ export const UI = {
   'about.values': tr('Our Values', '我們的價值觀', '우리의 가치'),
   'about.location': tr('Our Location', '我們的位置', '위치'),
   'about.history': tr('Our History', '我們的歷史', '연혁'),
-  'about.facilities': tr('Our Facilities', '我們的設施', '시설'),
   'about.historyText': tr(
     'The lab was founded by Prof. Jung Sun Yoo and was previously known as the Optical Imaging Group for Translational Medicine (OIGTM), established at Seoul National University and relocated to The Hong Kong Polytechnic University in 2016. It now continues as MI² — Molecular Imaging & Intelligence Laboratory, extending its optical and molecular imaging heritage with artificial intelligence.',
     '本實驗室由 Jung Sun Yoo 教授創立，前身為 Optical Imaging Group for Translational Medicine（OIGTM），始建於 Seoul National University，2016 年遷至香港理工大學。現以 MI² — Molecular Imaging & Intelligence Laboratory 延續發展，在光學與分子影像的傳承上結合人工智能。',
@@ -122,6 +121,9 @@ export const UI = {
 
   /* resources panel */
   'resources.visitSite': tr('Visit site →', '前往網站 →', '웹사이트 방문 →'),
+  'resources.software': tr('Software', '軟件', '소프트웨어'),
+  'resources.facilities': tr('Facilities', '實驗設施', '연구 시설'),
+  'resources.tbd': tr('TBD', '待定', '추후 공개'),
 
   /* join panel */
   'join.contact': tr('Contact us', '聯絡我們', '문의하기'),

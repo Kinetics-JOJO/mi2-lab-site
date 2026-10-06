@@ -1,6 +1,6 @@
 import OrbitIcon from '../components/OrbitIcon'
 import SectionHeading from '../components/SectionHeading'
-import { FACILITIES, FACILITIES_INTRO, INTRO, VALUES } from '../data/content'
+import { INTRO, VALUES } from '../data/content'
 import type { Tr } from '../data/i18n'
 import { useLanguage } from '../i18n'
 
@@ -86,36 +86,6 @@ export default function About({ onExploreResearch }: AboutProps) {
           </p>
         </section>
       </div>
-
-      <section aria-labelledby="about-facilities" className="mt-14">
-        <h3 id="about-facilities" className="text-lg font-semibold text-brand-navy">
-          {t('about.facilities')}
-        </h3>
-        <p className="mt-3 max-w-3xl text-sm leading-relaxed text-brand-muted">
-          {tr(FACILITIES_INTRO)}
-        </p>
-        <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {FACILITIES.map((f) => (
-            <article
-              key={f.name}
-              className="flex flex-col overflow-hidden rounded-2xl bg-white shadow-card"
-            >
-              <img
-                src={f.photo}
-                alt={f.name}
-                className="aspect-[4/3] w-full object-cover"
-                loading="lazy"
-              />
-              <div className="p-5">
-                <h4 className="text-sm font-bold leading-snug text-brand-navy">{f.name}</h4>
-                <p className="mt-2 text-xs leading-relaxed text-brand-muted">
-                  {tr(f.description)}
-                </p>
-              </div>
-            </article>
-          ))}
-        </div>
-      </section>
     </div>
   )
 }
