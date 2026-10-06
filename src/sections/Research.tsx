@@ -7,6 +7,7 @@ import {
   HERITAGE_INTRO,
   HERITAGE_ITEMS,
   INTRO,
+  PATENTS,
   PILLARS,
   SELECTED_PUBLICATIONS,
   TECHNIQUES,
@@ -106,6 +107,19 @@ export default function Research() {
                 {pub.venue}, {pub.year}.
               </em>
             </p>
+          </li>
+        ))}
+      </ol>
+
+      {/* Patents — same plain numbered list style as All Publications */}
+      <h3 className="mt-14 text-xl font-semibold text-brand-navy">{t('research.patents')}</h3>
+      <ol className="mt-5 space-y-3">
+        {PATENTS.map((patent, i) => (
+          <li key={patent.text.en} className="flex gap-3 text-sm leading-relaxed">
+            <span className="mt-0.5 shrink-0 text-xs font-medium text-brand-muted">
+              {i + 1}.
+            </span>
+            <p className="text-brand-ink">{tr(patent.text)}</p>
           </li>
         ))}
       </ol>

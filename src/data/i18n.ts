@@ -118,6 +118,7 @@ export const UI = {
     '연구 계보 (OIGTM)',
   ),
   'research.collaborators': tr('Collaborators:', '合作者：', '협력자:'),
+  'research.patents': tr('Patents', '專利', '특허'),
 
   /* resources panel */
   'resources.visitSite': tr('Visit site →', '前往網站 →', '웹사이트 방문 →'),

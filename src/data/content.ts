@@ -469,6 +469,94 @@ export const VALUES: ValueItem[] = [
   },
 ]
 
+/* ---------------- Patents (Research) ---------------- */
+
+export interface PatentItem {
+  /** full citation paragraph, localized */
+  text: Tr
+}
+
+/** Newest first (2022 → 2007) */
+export const PATENTS: PatentItem[] = [
+  {
+    text: {
+      en: 'Ho Yin Martin Yeung, Ngai Nick Alex Wong, Jung Sun Yoo, Cheong Kin Ronald Chan, Ka Fai To. Systems, Methods and Workflow for Processing Whole Slide Imaging for Disease Detection: The Hong Kong Polytechnic University, The Chinese University of Hong Kong. Application #63/366,019, June 08, 2022, US Provisional Patent Application, Application for China.',
+      zh: 'Ho Yin Martin Yeung, Ngai Nick Alex Wong, Jung Sun Yoo, Cheong Kin Ronald Chan, Ka Fai To. 用於疾病檢測的全切片影像處理系統、方法與工作流程：香港理工大學、香港中文大學。申請號 63/366,019，2022 年 6 月 8 日，美國臨時專利申請，中國專利申請。',
+      ko: 'Ho Yin Martin Yeung, Ngai Nick Alex Wong, Jung Sun Yoo, Cheong Kin Ronald Chan, Ka Fai To. 질병 검출을 위한 홀 슬라이드 이미징 처리 시스템, 방법 및 워크플로: 홍콩 이공대학교, 홍콩 중문대학교. 출원번호 63/366,019, 2022년 6월 8일, 미국 가특허 출원, 중국 특허 출원.',
+    },
+  },
+  {
+    text: {
+      en: 'Jung Sun Yoo, Ngai Nick Alex Wong. An Intraoperative Imaging Technique to Specifically Visualize Peripheral Nerves using Spectral Reflectance and Deep Neural Networks: The Hong Kong Polytechnic University. Application #63/265,158, December 09, 2021, US Provisional Patent Application, Application for China; Stage 1 Registration in Hong Kong, September 09, 2023.',
+      zh: 'Jung Sun Yoo, Ngai Nick Alex Wong. 一種利用光譜反射與深度神經網絡特異性可視化外周神經的術中成像技術：香港理工大學。申請號 63/265,158，2021 年 12 月 9 日，美國臨時專利申請，中國專利申請；香港第一階段登記，2023 年 9 月 9 日。',
+      ko: 'Jung Sun Yoo, Ngai Nick Alex Wong. 스펙트럴 반사율과 심층 신경망을 이용해 말초신경을 특이적으로 시각화하는 수술 중 영상 기술: 홍콩 이공대학교. 출원번호 63/265,158, 2021년 12월 9일, 미국 가특허 출원, 중국 특허 출원; 홍콩 1단계 등록, 2023년 9월 9일.',
+    },
+  },
+  {
+    text: {
+      en: 'Jung Sun Yoo, Tae-Rin Lee. System and Method for Quantifying Cell and/or Drug Transfer Efficiently in Microvessel and Surrounding Tissue: Advanced Institutes of Convergence Technology. Application #PCT/KR2017/008951, Grant #WO 2018/034507/A1, February 22, 2018, PCT Patent.',
+      zh: 'Jung Sun Yoo, Tae-Rin Lee. 定量評估微血管及周圍組織中細胞／藥物遞送效率的系統與方法：韓國融合技術研究院（AICT）。申請號 PCT/KR2017/008951，授權號 WO 2018/034507/A1，2018 年 2 月 22 日，PCT 國際專利。',
+      ko: 'Jung Sun Yoo, Tae-Rin Lee. 미세혈관 및 주변 조직에서 세포/약물 전달 효율을 정량화하는 시스템 및 방법: 차세대융합기술연구원. 출원번호 PCT/KR2017/008951, 등록번호 WO 2018/034507/A1, 2018년 2월 22일, PCT 특허.',
+    },
+  },
+  {
+    text: {
+      en: 'Tae-Rin Lee, Jung Sun Yoo. System and Method for Quantitatively Estimating Delivering Efficiency of Cells and/or Drugs in Microvessels and Tissue: Advanced Institutes of Convergence Technology. KR Patent 10-1909447, October 12, 2018, Republic of Korea.',
+      zh: 'Tae-Rin Lee, Jung Sun Yoo. 定量估算微血管與組織中細胞／藥物遞送效率的系統與方法：韓國融合技術研究院。韓國專利 10-1909447，2018 年 10 月 12 日，大韓民國。',
+      ko: 'Tae-Rin Lee, Jung Sun Yoo. 미세혈관 및 조직 내 세포/약물 전달 효율을 정량적으로 추정하는 시스템 및 방법: 차세대융합기술연구원. 대한민국 특허 10-1909447, 2018년 10월 12일.',
+    },
+  },
+  {
+    text: {
+      en: 'Jung Sun Yoo, Tae-Rin Lee. Non-label Imaging System for Selective Microscopy of Peripheral Nerve: Seoul National University R&DB Foundation, Advanced Institutes of Convergence Technology. Application #PCT/KR2017/001823 (February 20, 2017), Grant #WO 2017/142376 A1, August 24, 2017, PCT Patent.',
+      zh: 'Jung Sun Yoo, Tae-Rin Lee. 用於外周神經選擇性顯微成像的無標記成像系統：首爾大學產學合作基金會、韓國融合技術研究院。申請號 PCT/KR2017/001823（2017 年 2 月 20 日），授權號 WO 2017/142376 A1，2017 年 8 月 24 日，PCT 國際專利。',
+      ko: 'Jung Sun Yoo, Tae-Rin Lee. 말초신경 선택적 현미 영상을 위한 무라벨 영상 시스템: 서울대학교 산학협력단, 차세대융합기술연구원. 출원번호 PCT/KR2017/001823(2017년 2월 20일), 등록번호 WO 2017/142376 A1, 2017년 8월 24일, PCT 특허.',
+    },
+  },
+  {
+    text: {
+      en: 'Jung Sun Yoo, Tae-Rin Lee. Label-free Imaging System for Specific Detection of Peripheral Nerve: Seoul National University R&DB Foundation, Advanced Institutes of Convergence Technology. KR Patent 10-1790988, October 26, 2017, Republic of Korea.',
+      zh: 'Jung Sun Yoo, Tae-Rin Lee. 用於特異性檢測外周神經的無標記成像系統：首爾大學產學合作基金會、韓國融合技術研究院。韓國專利 10-1790988，2017 年 10 月 26 日，大韓民國。',
+      ko: 'Jung Sun Yoo, Tae-Rin Lee. 말초신경의 특이적 검출을 위한 무라벨(Label-free) 영상 시스템: 서울대학교 산학협력단, 차세대융합기술연구원. 대한민국 특허 10-1790988, 2017년 10월 26일.',
+    },
+  },
+  {
+    text: {
+      en: 'Seong-Tae Han, Jung Sun Yoo. Device for Stimulating the Growth of Hair and Skin Tissue: Korea Electrotechnology Research Institute. KR Patent 10-1773983, August 28, 2017, Republic of Korea.',
+      zh: 'Seong-Tae Han, Jung Sun Yoo. 促進毛髮與皮膚組織生長的裝置：韓國電氣技術研究院。韓國專利 10-1773983，2017 年 8 月 28 日，大韓民國。',
+      ko: 'Seong-Tae Han, Jung Sun Yoo. 모발 및 피부 조직의 성장을 촉진하는 장치: 한국전기기술연구원. 대한민국 특허 10-1773983, 2017년 8월 28일.',
+    },
+  },
+  {
+    text: {
+      en: 'Kwang-Sup Soh, Jung Sun Yoo, Jaekwan Lim. A Method for Imaging Metastasis of Cancer via Primo-vessel: Seoul National University R&DB Foundation, Mobase Co., Ltd. KR Patent 10-1218798, December 28, 2012, Republic of Korea.',
+      zh: 'Kwang-Sup Soh, Jung Sun Yoo, Jaekwan Lim. 一種經原始管（Primo-vessel）對癌症轉移進行成像的方法：首爾大學產學合作基金會、Mobase 公司。韓國專利 10-1218798，2012 年 12 月 28 日，大韓民國。',
+      ko: 'Kwang-Sup Soh, Jung Sun Yoo, Jaekwan Lim. 프리모관(Primo-vessel)을 통한 암 전이 영상 방법: 서울대학교 산학협력단, Mobase Co., Ltd. 대한민국 특허 10-1218798, 2012년 12월 28일.',
+    },
+  },
+  {
+    text: {
+      en: 'Kwang-Sup Soh, Byung-Cheon Lee, Jung Sun Yoo, Ku-Youn Baik, Sung-Il Cho. Visualizing Agent Comprising a Janus Green B and Visualizing Method by Using the Same: Seoul National University R&DB Foundation. KR Patent 10-0950246, March 23, 2010, Republic of Korea; US Patent US20090155171A1, June 18, 2009, United States.',
+      zh: 'Kwang-Sup Soh, Byung-Cheon Lee, Jung Sun Yoo, Ku-Youn Baik, Sung-Il Cho. 含 Janus Green B 的顯影劑及其顯影方法：首爾大學產學合作基金會。韓國專利 10-0950246，2010 年 3 月 23 日，大韓民國；美國專利 US20090155171A1，2009 年 6 月 18 日，美國。',
+      ko: 'Kwang-Sup Soh, Byung-Cheon Lee, Jung Sun Yoo, Ku-Youn Baik, Sung-Il Cho. Janus Green B를 포함하는 시각화제 및 이를 이용한 시각화 방법: 서울대학교 산학협력단. 대한민국 특허 10-0950246, 2010년 3월 23일; 미국 특허 US20090155171A1, 2009년 6월 18일, 미국.',
+    },
+  },
+  {
+    text: {
+      en: 'Kwang-Sup Soh, Hyeon-Min Johng, Hak-Soo Shin, Chunho Choi, Jung Sun Yoo, Young-Zoon Yoon, Changhoon Lee, Sung-Il Cho. Visualizing Agent Comprising a Magnetic Nanoparticle and Visualizing Method by Using the Same: Seoul National University R&DB Foundation. KR Patent 10-0875989, December 18, 2008, Republic of Korea.',
+      zh: 'Kwang-Sup Soh, Hyeon-Min Johng, Hak-Soo Shin, Chunho Choi, Jung Sun Yoo, Young-Zoon Yoon, Changhoon Lee, Sung-Il Cho. 含磁性納米顆粒的顯影劑及其顯影方法：首爾大學產學合作基金會。韓國專利 10-0875989，2008 年 12 月 18 日，大韓民國。',
+      ko: 'Kwang-Sup Soh, Hyeon-Min Johng, Hak-Soo Shin, Chunho Choi, Jung Sun Yoo, Young-Zoon Yoon, Changhoon Lee, Sung-Il Cho. 자성 나노입자를 포함하는 시각화제 및 이를 이용한 시각화 방법: 서울대학교 산학협력단. 대한민국 특허 10-0875989, 2008년 12월 18일.',
+    },
+  },
+  {
+    text: {
+      en: 'Kwang-Sup Soh, Byung-Cheon Lee, Jung Sun Yoo, Changhoon Lee, Hyeon-Min Johng, Min Su Kim. Visualizing Method by Using the Alcian Blue: Seoul National University R&DB Foundation, Mobase Co., Ltd. KR Patent 10-0753899, August 24, 2007, Republic of Korea.',
+      zh: 'Kwang-Sup Soh, Byung-Cheon Lee, Jung Sun Yoo, Changhoon Lee, Hyeon-Min Johng, Min Su Kim. 使用阿爾新藍（Alcian Blue）的顯影方法：首爾大學產學合作基金會、Mobase 公司。韓國專利 10-0753899，2007 年 8 月 24 日，大韓民國。',
+      ko: 'Kwang-Sup Soh, Byung-Cheon Lee, Jung Sun Yoo, Changhoon Lee, Hyeon-Min Johng, Min Su Kim. Alcian Blue를 이용한 시각화 방법: 서울대학교 산학협력단, Mobase Co., Ltd. 대한민국 특허 10-0753899, 2007년 8월 24일.',
+    },
+  },
+]
+
 /* ---------------- Facilities (Resources) ---------------- */
 
 export interface Facility {
