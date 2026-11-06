@@ -618,6 +618,7 @@ export const FACILITIES: Facility[] = [
   {
     photo: asset('facilities/hplc-system.jpg'),
     name: 'Liquid Chromatography System (Y1108)',
+    portrait: true,
     description: {
       en: 'This system separates different compounds in a liquid sample. It helps researchers identify substances and measure their amounts, making it useful for analyzing drugs and other chemicals.',
       zh: '該系統用於分離液體樣本中的不同化合物，幫助研究者鑒定物質並測定其含量，適用於藥物及其他化學物質分析。',
@@ -750,9 +751,9 @@ export const JOIN_SECTIONS: JoinSection[] = [
   {
     title: { en: 'Graduate study', zh: '研究生課程', ko: '대학원 과정' },
     text: {
-      en: 'We welcome enquiries from prospective MPhil and PhD students interested in AI for healthcare, molecular imaging, and drug discovery. Details on programmes and supervision [To be confirmed].',
-      zh: '歡迎對醫療人工智能、分子影像及藥物研發感興趣的準 MPhil 及 PhD 學生查詢。課程及指導安排詳情[待確認]。',
-      ko: '의료 AI, 분자 영상, 신약 개발에 관심 있는 MPhil 및 PhD 지원자의 문의를 환영합니다. 프로그램 및 지도 관련 세부 사항은 [확인 예정].',
+      en: 'We welcome enquiries from prospective MPhil and PhD students interested in AI for healthcare, molecular imaging, and drug discovery.',
+      zh: '歡迎對醫療人工智能、分子影像及藥物研發感興趣的準 MPhil 及 PhD 學生查詢。',
+      ko: '의료 AI, 분자 영상, 신약 개발에 관심 있는 MPhil 및 PhD 지원자의 문의를 환영합니다.',
     },
   },
   {
@@ -762,17 +763,17 @@ export const JOIN_SECTIONS: JoinSection[] = [
       ko: '방문 연구자 및 학자',
     },
     text: {
-      en: 'We are happy to discuss short-term and long-term visits for researchers working in related areas. Visit arrangements and funding [To be confirmed].',
-      zh: '我們樂意與相關領域的研究人員商討短期或長期訪問安排。訪問安排及資助詳情[待確認]。',
-      ko: '관련 분야 연구자의 단기 및 장기 방문을 기꺼이 논의합니다. 방문 일정 및 재정 지원은 [확인 예정].',
+      en: 'We are happy to discuss short-term and long-term visits for researchers working in related areas.',
+      zh: '我們樂意與相關領域的研究人員商討短期或長期訪問安排。',
+      ko: '관련 분야 연구자의 단기 및 장기 방문을 기꺼이 논의합니다.',
     },
   },
   {
     title: { en: 'Postdoctoral researchers', zh: '博士後研究人員', ko: '박사후 연구원' },
     text: {
-      en: 'Postdoctoral openings will be advertised here as positions become available. Current openings [To be confirmed].',
-      zh: '博士後職位空缺將於此公布。目前空缺情況[待確認]。',
-      ko: '박사후 연구원 채용 공고는 자리가 생기는 대로 이곳에 게시됩니다. 현재 공개된 자리는 [확인 예정].',
+      en: 'Postdoctoral openings will be advertised here as positions become available.',
+      zh: '博士後職位空缺將於此公布。',
+      ko: '박사후 연구원 채용 공고는 자리가 생기는 대로 이곳에 게시됩니다.',
     },
   },
 ]
