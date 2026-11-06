@@ -607,6 +607,33 @@ export const FACILITIES: Facility[] = [
     },
   },
   {
+    photo: asset('facilities/behavior-equipment.jpg'),
+    name: 'Animal Behavioral Testing Equipment (Y1104)',
+    description: {
+      en: 'These tools are used to study mouse behavior, including movement, memory, social interaction, and responses to stress. They help researchers understand brain function and the effects of different treatments.',
+      zh: '這些設備用於研究小鼠行為，包括運動、記憶、社交互動及對壓力的反應，幫助研究者理解大腦功能及不同處理的效果。',
+      ko: '이 장비들은 운동, 기억, 사회적 상호작용, 스트레스 반응 등 마우스 행동 연구에 사용되며, 연구자들이 뇌 기능과 다양한 처리의 효과를 이해하는 데 도움을 줍니다.',
+    },
+  },
+  {
+    photo: asset('facilities/hplc-system.jpg'),
+    name: 'Liquid Chromatography System (Y1108)',
+    description: {
+      en: 'This system separates different compounds in a liquid sample. It helps researchers identify substances and measure their amounts, making it useful for analyzing drugs and other chemicals.',
+      zh: '該系統用於分離液體樣本中的不同化合物，幫助研究者鑒定物質並測定其含量，適用於藥物及其他化學物質分析。',
+      ko: '이 시스템은 액체 시료 내 다양한 화합물을 분리하여 물질을 식별하고 함량을 측정하는 데 사용되며, 약물 및 기타 화학물질 분석에 유용합니다.',
+    },
+  },
+  {
+    photo: asset('facilities/scintillation-counter.jpg'),
+    name: 'Liquid Scintillation Counter (Y1108)',
+    description: {
+      en: 'This instrument measures radioactivity in samples by detecting tiny flashes of light. Researchers use it to study samples containing radioactive labels and track biological processes.',
+      zh: '該儀器通過檢測微小閃光來測量樣本中的放射性，研究者用它研究含放射性標記的樣本並追蹤生物學過程。',
+      ko: '이 기기는 미세한 섬광을 감지하여 시료의 방사능을 측정하며, 연구자들은 방사성 표지가 포함된 시료 연구와 생물학적 과정 추적에 사용합니다.',
+    },
+  },
+  {
     photo: '',
     name: 'Animal PET/SPECT/CT',
     tbd: true,

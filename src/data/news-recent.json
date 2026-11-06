@@ -1,5 +1,42 @@
 [
  {
+  "id": "gwinky-graduation",
+  "date": "2026-11",
+  "title": {
+   "en": "Congratulations to Gwinky on his graduation!",
+   "zh": "恭喜 Gwinky 畢業！",
+   "ko": "Gwinky 님의 졸업을 축하합니다!"
+  },
+  "text": {
+   "en": "Congratulations to Gwinky on his graduation — thank you for all your contributions to our lab!",
+   "zh": "恭喜 Gwinky 畢業，感謝他為我們組做的貢獻！",
+   "ko": "Gwinky 님의 졸업을 축하하며, 우리 연구실에 기여해 주신 모든 것에 감사드립니다!"
+  },
+  "images": [
+   {
+    "src": "assets/news-recent/gwinky-graduation/img-01.jpg",
+    "portrait": false,
+    "w": 1400,
+    "h": 1050,
+    "contain": false
+   },
+   {
+    "src": "assets/news-recent/gwinky-graduation/img-02.jpg",
+    "portrait": false,
+    "w": 1400,
+    "h": 1050,
+    "contain": false
+   },
+   {
+    "src": "assets/news-recent/gwinky-graduation/img-03.jpg",
+    "portrait": true,
+    "w": 1400,
+    "h": 1867,
+    "contain": false
+   }
+  ]
+ },
+ {
   "id": "aocmp",
   "date": "2026-09",
   "title": {
