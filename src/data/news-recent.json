@@ -1,5 +1,65 @@
 [
  {
+  "id": "sfn2026-yunlin-oral",
+  "date": "2026-11",
+  "title": {
+   "en": "Congratulations to Yunlin on her first oral presentation as a PhD student",
+   "zh": "祝賀 Yunlin 完成博士期間首次口頭報告",
+   "ko": "Yunlin의 박사과정 첫 구두 발표를 축하합니다"
+  },
+  "text": {
+   "en": "On November 18, Yunlin successfully presented two new studies conducted with Hexiao at SfN 2026 in Washington, DC. Congratulations on this wonderful milestone!",
+   "zh": "11 月 18 日，Yunlin 在華盛頓特區舉行的 SfN 2026 上，順利展示了她與 Hexiao 的兩項新研究。祝賀她完成這一重要里程碑！",
+   "ko": "11월 18일, Yunlin이 워싱턴 D.C.에서 열린 SfN 2026에서 Hexiao와 함께 진행한 두 가지 새로운 연구를 성공적으로 발표했습니다. 이 뜻깊은 이정표를 축하합니다!"
+  },
+  "images": [
+   {
+    "src": "assets/news-recent/sfn2026-yunlin-oral/img-01.jpg",
+    "portrait": false,
+    "w": 1600,
+    "h": 1200,
+    "contain": false
+   },
+   {
+    "src": "assets/news-recent/sfn2026-yunlin-oral/img-02.jpg",
+    "portrait": true,
+    "w": 1200,
+    "h": 1600,
+    "contain": false
+   },
+   {
+    "src": "assets/news-recent/sfn2026-yunlin-oral/img-03.jpg",
+    "portrait": false,
+    "w": 1600,
+    "h": 1200,
+    "contain": false
+   }
+  ]
+ },
+ {
+  "id": "lidong-beef-hotpot",
+  "date": "2026-11",
+  "title": {
+   "en": "Celebrating the Start of Winter with beef hotpot",
+   "zh": "立冬聚餐：一起吃牛肉火鍋",
+   "ko": "입동을 맞아 함께한 소고기 훠궈"
+  },
+  "text": {
+   "en": "On November 9, our lab gathered for a warm beef hotpot dinner to celebrate the Start of Winter.",
+   "zh": "11 月 9 日立冬，我們一起吃牛肉火鍋，在暖意與笑聲中共度美好時光。",
+   "ko": "11월 9일 입동을 맞아 우리 연구실은 소고기 훠궈를 함께 먹으며 따뜻하고 즐거운 시간을 가졌습니다."
+  },
+  "images": [
+   {
+    "src": "assets/news-recent/lidong-beef-hotpot/img-01.jpg",
+    "portrait": false,
+    "w": 1600,
+    "h": 1200,
+    "contain": false
+   }
+  ]
+ },
+ {
   "id": "gwinky-graduation",
   "date": "2026-11",
   "title": {
